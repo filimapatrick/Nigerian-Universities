@@ -1,10 +1,16 @@
 
 import './App.css';
+import Header from './components/Header';
+import RoutesSection from './components/RoutesSection';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
-     <p>welcome</p>
+      <Header/>
+   <Sidebar/>
+<RoutesSection/>
+
     </div>
   );
 }

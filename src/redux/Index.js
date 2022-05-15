@@ -3,7 +3,7 @@ import {UniversitiesReducer,UniversityReducer} from './Reducers/UniversityReduce
 
 
 const reducers = combineReducers({
-    alluniversities: UniversitiesReducer,
+    allUniversities: UniversitiesReducer,
     university: UniversityReducer,
   });
   export default reducers;

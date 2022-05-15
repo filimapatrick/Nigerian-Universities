@@ -3,19 +3,12 @@ import { ActionType} from '../Action/ActionType';
 
 const initialState = {
     universites: [{
+        id:1,
         name:'james',
         occupation:'theive',
         sex:'male'
     }],
 }
-
-
-
-
-
-
-
-
 
 
 export const UniversitiesReducer=(state=initialState,{type,payload})=>{

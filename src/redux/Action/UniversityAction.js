@@ -1,6 +1,6 @@
 import { ActionType } from "./ActionType"
 
-export const UniversityAction =(universities)=> {
+export const setUniversity =(universities)=> {
 return{
     type: ActionType.SET_UNIVERSITY,
     payload: universities,
